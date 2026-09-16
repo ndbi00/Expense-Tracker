@@ -28,6 +28,12 @@ class _ExpensesState extends State<Expenses> {
       date: DateTime.now(),
       category: Category.leisure,
     ),
+    Expense(
+      title: 'BURGER',
+      amount: 5.99,
+      date: DateTime.now(),
+      category: Category.food,
+    ),
   ];
 
   void _openAddExpenseOverlay() {
